@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Upload the knowledge pack | Music Law Agent</title>
+<meta name="description" content="Five steps to put the music law knowledge pack into a shared ChatGPT Project.">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="index.html">Music Law Agent</a><a href="index.html#topic-map">Topic map</a></div></header>
+<main class="wrap">
+<h1>Stricter option: upload the knowledge pack</h1>
+<p class="lede">The link route has ChatGPT read these pages as it goes. Uploading the pack instead puts every topic, claim and source into a shared ChatGPT Project, where it can search the full text each time.</p>
+<h2>Set up a shared Project in five steps</h2>
+<ol class="steps">
+<li>Download <a href="downloads/music-law-pack.zip">music-law-pack.zip</a> and unzip it.</li>
+<li>In ChatGPT, open Projects in the sidebar and create a new project, for example "Music law".</li>
+<li>Open the project's instructions and paste the short instruction below.</li>
+<li>Add every unzipped file to the project.</li>
+<li>Share the project, choose "Anyone with a link", and send that link to the team. Everyone asks their questions in chats inside the project.</li>
+</ol>
+<h2>Short instruction for the project</h2>
+<div class="paste"><p id="short-form">You are a music-law research assistant for a team building a user-friendly, DJ-style app for mixing existing songs, fed by a stem splitter. Answer only from the files in this project; start with 00-START-HERE.md and open the card that matches each question. Cite claim ids like [M-0123] and name the source. If the files do not cover it, say &quot;not in my files&quot; and do not fill from memory. Say what is unsettled, flag what needs a licensed music attorney, and give the &quot;Law last checked&quot; date. Never say that changing a song enough makes it yours, that crediting the artist makes it fine, that a set number of seconds is fair use, that a cover licence covers a remix, or that not selling it makes it legal. You are a research tool, not a lawyer; this is not legal advice.</p><button type="button" data-copy="short-form" hidden>Copy</button></div>
+<h2>Other downloads</h2>
+<ul class="links">
+<li><a href="downloads/music-law-pack-free.zip">music-law-pack-free.zip</a>: the same content in exactly 5 files, for a project on the Free plan (5 files per project).</li>
+<li><a href="downloads/all-in-one.txt">all-in-one.txt</a>: everything in one plain text file.</li>
+</ul>
+<p class="note">Plan limits change. Check the current file limits in ChatGPT before you rely on them.</p>
+<p><a href="index.html">Back to the start page</a></p>
+</main>
+<footer class="wrap"><p>Research tool, not legal advice. Law last checked 2026-11-10.</p></footer>
+<script>
+(function(){var l=document.getElementById('page-link');if(l&&/^https?:/.test(location.protocol)){l.textContent=location.href.split('#')[0].split('?')[0];}document.querySelectorAll('[data-copy]').forEach(function(b){var t=document.getElementById(b.getAttribute('data-copy'));if(!t)return;b.hidden=false;b.addEventListener('click',function(){var s=t.textContent.replace(/\s+/g,' ').trim();var done=function(m){b.textContent=m;setTimeout(function(){b.textContent='Copy'},1800)};if(navigator.clipboard){navigator.clipboard.writeText(s).then(function(){done('Copied')},function(){sel(t);done('Selected')})}else{sel(t);done('Selected')}})});function sel(t){var r=document.createRange();r.selectNodeContents(t);var g=window.getSelection();g.removeAllRanges();g.addRange(r)}})();
+</script>
+</body>
+</html>
